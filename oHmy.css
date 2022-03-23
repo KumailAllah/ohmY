@@ -1,0 +1,17 @@
+/*-- le logo --*/
+
+header{
+    border: 1px solid black;
+    height: 100px;
+    background-color: #ffffff;
+}
+.logo{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.logo img{
+    border: 2px solid green;
+}
