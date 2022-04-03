@@ -15,3 +15,29 @@ header{
 .logo img{
     border: 2px solid green;
 }
+
+/*-- la barre de recherche --*/
+
+.Barre_de_recherche{
+    border: 1px solid red;
+    height: 90px;
+    background-color: #eaeaea;
+}
+.Barre_de_recherche input{
+    border: 3px solid orange;
+    width: 99%;
+}
+
+/*-- Réservation menu information --*/
+
+.Réservation{
+    border: 1px solid green;
+    height: 500px;
+    background-color: #f6f6f6;
+}
+.Réservation h1{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
