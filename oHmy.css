@@ -2,7 +2,7 @@
 
 header{
     border: 1px solid black;
-    height: 100px;
+    height: 50px;
     background-color: #ffffff;
 }
 .logo{
@@ -10,34 +10,52 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 50px;
 }
 .logo img{
     border: 2px solid green;
+    width: 45%;
+    
 }
 
 /*-- la barre de recherche --*/
 
 .Barre_de_recherche{
     border: 1px solid red;
-    height: 90px;
+    height: 35px;
     background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
 }
-.Barre_de_recherche input{
-    border: 3px solid orange;
-    width: 99%;
+.Barre_de_recherche i{
+    padding: 5px;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
 }
+
+/*-- Erreur à réctifier --*/
+
+.lieu_de_recherche input{
+    width: 95px; 
+}
+
 
 /*-- Réservation menu information --*/
 
 .Réservation{
     border: 1px solid green;
-    height: 500px;
+    height: 285px;
     background-color: #f6f6f6;
 }
 .Réservation h1{
+    border: 1px solid red;
     display: flex;
-    justify-content: center;
-    font-size: xx-large;
+    justify-content: center; /*-- Erreur --*/
+    font-size: 1.3em;
+}
+
+.Réservation h3{
+    border: 1px solid red;
 }
 
