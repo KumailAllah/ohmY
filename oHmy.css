@@ -34,12 +34,13 @@ header{
     align-items: center;
 }
 
-/*-- Erreur à réctifier --*/
+/*-- Erreur à réctifier couleur "Paris" --*/
 
-.lieu_de_recherche input{
-    width: 95px; 
+#lieu_de_recherche{
+    width: 95px;
+    background-color: #eaeaea;
+    border: none;
 }
-
 
 /*-- Réservation menu information --*/
 
@@ -50,12 +51,70 @@ header{
 }
 .Réservation h1{
     border: 1px solid red;
-    display: flex;
-    justify-content: center; /*-- Erreur --*/
+    text-align: center;
     font-size: 1.3em;
 }
 
 .Réservation h3{
     border: 1px solid red;
+    text-align: center;
 }
+
+/*-- Fonctionnement --*/
+
+.Fonctionnement_rectangle{
+    border: 1px solid black;
+    height: 440px;
+}
+.groupe_option{
+    border: 1px solid green;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.option{
+    border: 1px solid red;
+    border-radius: 25px;
+    height: 75px;
+}
+
+/*-- Restaurant --*/
+
+.Restaurants_rectangle{
+    border: 1px solid black;
+    height: auto;
+}
+
+.groupe_restaurant{
+    border: 1px solid green;
+    height: 1225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.restaurant{
+    border: 1px solid red;
+    height: 250px;
+}
+
+
+/*-- Footer --*/
+
+footer{
+    border: 1px solid black;
+    height: 195px;
+    background-color: #353535;
+}
+
+/*-- Footer (changer le fond de couleur du logo? --*/
+.footer_image img{
+    width: 95px;
+    height: 20px;
+    background-color: white;
+}
+
 
