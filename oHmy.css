@@ -1,5 +1,6 @@
 /*-- le logo --*/
 
+
 header{
     border: 1px solid black;
     height: 50px;
@@ -58,6 +59,7 @@ header{
 .Réservation h3{
     border: 1px solid red;
     text-align: center;
+    font-family: Roboto;
 }
 
 /*-- Fonctionnement --*/
@@ -99,11 +101,15 @@ header{
 .img_title{
     border: 1px solid red;
     height: 250px;
+    margin: 15px;
+    border-radius: 20px;
 }
 
 .restaurant_image{
     border: 1px solid black;
     height: 175px;
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
 }
 
 .restaurant_titre{
@@ -115,11 +121,14 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
 }
 /*-- Pas d'espace entre le h3 et le p?--*/
 
 .restaurant_titre p{
     margin: 2px;
+    font-family: Roboto;
 }
 
 
@@ -140,4 +149,8 @@ footer{
     background-color: white;
 }
 
+
+1) Faire les polices caractères (shrikhand) (font family) FAIT
+
+2) margin top botton etc à faire et ajouter margin 0
 
